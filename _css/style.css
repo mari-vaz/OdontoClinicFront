@@ -1,0 +1,2347 @@
+/* Font */
+@font-face {
+    font-family: 'barlow';
+    src: url('../_font/barlow-regular-webfont.woff2') format('woff2'),
+    url('../_font/barlow-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	background-color:#C6F1E7;
+}
+
+.fundo
+{
+	background-color:#C6F1E7;
+}
+
+
+
+
+
+
+
+
+/* Text */
+.text{
+	font-family: 'barlow';
+	font-style: normal;
+	letter-spacing: 0.05em;
+	
+	color: #055B5C;
+}
+.text2{
+	font-family: 'barlow';
+	font-style: normal;
+	letter-spacing: 0.05em;
+	font-size: 3vh;
+	left: 11%;
+	
+	color: #C6F1E7;
+}
+.text3{
+	font-family: 'barlow';
+	font-style: normal;
+	letter-spacing: 0.05em;
+	font-size: 100%;
+	left: 5%;
+	
+	color: #055B5C;
+}
+.text4{
+	font-family: 'barlow';
+	font-style: normal;
+	letter-spacing: 0.05em;
+	font-size: 3vh;
+	
+	color: #055B5C;
+}
+
+div#atheaderlogo
+{
+	background-color: #F0FFF3;
+}
+
+
+h1#h1OntologicalClinic2{
+	position: absolute;
+	left: 15vh;
+	top: 23%;
+	
+	margin: 0px;
+	padding: 0px;
+	font-weight: 600;
+
+	font-size: 8vh;
+}
+
+.full-width-div {
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+
+h2#labelocalizEdit1{
+	position: absolute;
+	left: 10%;
+	top: 20%;
+	margin: 0px;
+	
+	font-size: 4vh;
+}
+h2#labelocalizEdit2{
+	position: absolute;
+	left: 10%;
+	top: 28%;
+	margin: 0px;
+	
+	font-size: 4vh;
+}
+h2#labelocalizEdit3{
+	position: absolute;
+	left: 36%;
+	top: 19%;
+	margin: 0px;
+	
+	font-size: 4vh;
+}
+h2#labelocalizEdit4{
+	position: absolute;
+	left: 40%;
+	top: 19%;
+	margin: 0px;
+	
+	font-size: 4.5vh;
+}
+h2#labelocalizEdit5{
+	position: absolute;
+	left: 10%;
+	top: 23%;
+	margin: 0px;
+	
+	font-size: 4.5vh;
+	color:#055B5C;
+}
+h2#labelAlt1{
+	position: absolute;
+	left: 10%;
+	top: 49%;
+	margin: 0px;
+	
+	font-size: 4vh;
+}
+h2#labelAlt2{
+	position: absolute;
+	left: 10%;
+	top: 20%;
+	margin: 0px;
+	
+	font-size: 4vh;
+}
+h2#labelocalizEditCPF{
+	position: absolute;
+	left: 20%;
+	top: 27%;
+	margin: 0px;
+	
+	font-size: 4vh;
+}
+h2#labelocalizEditNome{
+	position: absolute;
+	left: 23%;
+	top: 36%;
+	margin: 0px;
+	
+	font-size: 4vh;
+}
+h2#labelocalizEditTelefone{
+	position: absolute;
+	left: 28%;
+	top: 45%;
+	margin: 0px;
+	
+	font-size: 4vh;
+}
+h2#labelocalizEditData{
+	position: absolute;
+	left: 37%;
+	top: 54%;
+	margin: 0px;
+	
+	font-size: 4vh;
+}
+h2#labelocalizEditEmail{
+	position: absolute;
+	left: 22.5%;
+	top: 62.5%;
+	margin: 0px;
+	
+	font-size: 4vh;
+}
+h2#labelocalizEditEndereço{
+	position: absolute;
+	left: 29.5%;
+	top: 72%;
+	margin: 0px;
+	
+	font-size: 4vh;
+}
+h2#labFichaExtCPF{
+	position: absolute;
+	left: 63.5%;
+	top: 35.7%;
+	margin: 0px;
+	
+	font-size: 3vh;
+	color:#055B5C;
+}
+h2#labFichaExtNome{
+	position: absolute;
+	left: 16%;
+	top: 36%;
+	margin: 0px;
+	
+	font-size: 3vh;
+	color:#055B5C;
+}
+h2#labFichaExtTelefone{
+	position: absolute;
+	left: 18%;
+	top: 48%;
+	margin: 0px;
+	
+	font-size: 3vh;
+	color:#055B5C;
+}
+h2#labFichaExtData{
+	position: absolute;
+	left: 71.5%;
+	top: 47.8%;
+	margin: 0px;
+	
+	font-size: 3vh;
+	color:#055B5C;
+}
+h2#labFichaExtEmail{
+	position: absolute;
+	left: 15.3%;
+	top: 61.5%;
+	margin: 0px;
+	
+	font-size: 3vh;
+	color:#055B5C;
+}
+h2#labFichaExtEndereço{
+	position: absolute;
+	left: 18.3%;
+	top: 74%;
+	margin: 0px;
+	
+	font-size: 3vh;
+	color:#055B5C;
+}
+h2#labFichaExtAlergias{
+	position: absolute;
+	left: 67.5%;
+	top: 61.5%;
+	margin: 0px;
+	
+	font-size: 3vh;
+	color:#055B5C;
+}
+h2#labelExcluir1{
+	position: absolute;
+	top: 28%;
+	font-size: 4vh;
+	color: #ffffff;
+}
+h2#labelExcluir2{
+	position: absolute;
+	top: 49%;
+	font-size: 4vh;
+	color: #ffffff;
+}
+h2#labelEditAnam1{
+	position: absolute;
+	left: 23%;
+	top: 35.7%;
+	margin: 0px;
+	
+	font-size: 4vh;
+}
+h2#labelEditAnam2{
+	position: absolute;
+	left: 25.8%;
+	top: 50.8%;
+	margin: 0px;
+	
+	font-size: 4vh;
+}
+h2#labelEditAnam3{ 
+	position: absolute;
+	left: 15.5%;
+	top: 65.7%;
+	margin: 0px;
+	
+	font-size: 4vh;
+}
+h2#mesSelecionado2{
+	
+	
+	font-weight: 600;
+	font-size: 6vh;
+}
+h2#anoSelecionado{
+	
+	
+	font-weight: 600;
+	font-size: 6vh;
+}
+h3#diaSelecionado2 {
+	
+	margin-top: 10px;
+
+	font-size: 10vh;
+}
+h3#mesSelecionado2 {
+	
+	margin: 0px;
+	
+
+	font-weight: 400;
+	font-size: 6vh;	
+}
+h3#labelMarcar {
+	position: absolute;
+	top: 2%;
+	
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+
+	color: #11CBD7;
+	font-weight: 600;
+	font-size: 5.5vh;	
+}
+h3#labelEditar{
+	position: absolute;
+	top: 2%;
+	
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+
+	color: #11CBD7;
+	font-weight: 600;
+	font-size: 5.5vh;
+}
+h3#labelEditarSave{
+	position: absolute;
+	top: 2%;
+	
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+
+	color: #055B5C;
+	font-weight: 600;
+	font-size: 5.5vh;
+}
+h3#labelEditarCPF{
+	position: absolute;
+	top: 23.5%;
+	left: 14.5%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+
+	color: #11CBD7;
+	font-weight: 600;
+	font-size: 4.5vh;
+}
+h3#labelEditarNome{
+	position: absolute;
+	top: 32%;
+	
+	left: 16%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+
+	color: #11CBD7;
+	font-weight: 600;
+	font-size: 4.5vh;
+}
+h3#labelEditarTelefone{
+	position: absolute;
+	top: 41%;
+	
+	left: 18.5%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+
+	color: #11CBD7;
+	font-weight: 600;
+	font-size: 4.5vh;
+}
+h3#labelEditarData{
+	position: absolute;
+	top: 50%;
+	
+	left: 23%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+
+	color: #11CBD7;
+	font-weight: 600;
+	font-size: 4.5vh;
+}
+h3#labelEditarEmail{
+	position: absolute;
+	top: 59%;
+	
+	left: 15.5%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+
+	color: #11CBD7;
+	font-weight: 600;
+	font-size: 4.5vh;
+}
+h3#labelEditarEndereço{
+	position: absolute;
+	top: 68%;
+	
+	left: 19%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+
+	color: #11CBD7;
+	font-weight: 600;
+	font-size: 4.5vh;
+}
+h3#labelFichaExtCPF{
+	position: absolute;
+	top: 34%;
+	left: 61%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+
+	color: #055B5C;
+	font-weight: 600;
+	font-size: 3vh;
+}
+h3#labelFichaExtNome{
+	position: absolute;
+	top: 34.2%;
+	left: 12.8%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+
+	color: #055B5C;
+	font-weight: 600;
+	font-size: 3vh;
+}
+h3#labelFichaExtTelefone{
+	position: absolute;
+	top: 46%;
+	left: 13.5%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+
+	color: #055B5C;
+	font-weight: 600;
+	font-size: 3vh;
+}
+h3#labelFichaExtData{
+	position: absolute;
+	top: 46%;
+	left: 65%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+
+	color: #055B5C;
+	font-weight: 600;
+	font-size: 3vh;
+}
+h3#labelFichaExtEmail{
+	position: absolute;
+	top: 60%;
+	left: 12%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+
+	color: #055B5C;
+	font-weight: 600;
+	font-size: 3vh;
+}
+h3#labelFichaExtEndereço{
+	position: absolute;
+	top: 72%;
+	left: 13.5%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+
+	color: #055B5C;
+	font-weight: 600;
+	font-size: 3vh;
+}
+h3#labelFichaExtAlergia{
+	position: absolute;
+	top: 60%;
+	left: 63%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+
+	color: #055B5C;
+	font-weight: 600;
+	font-size: 3vh;
+}
+h3#labelEditAnamnese1{
+	position: absolute;
+	top: 33%;
+	left: 16.5%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+
+	color: #11CBD7;
+	font-weight: 600;
+	font-size: 4vh;
+}
+h3#labelEditAnamnese2{
+	position: absolute;
+	top: 48%;
+	left: 18%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+
+	color: #11CBD7;
+	font-weight: 600;
+	font-size: 4vh;
+}
+h3#labelEditAnamnese3{
+	position: absolute;
+	top: 63%;
+	left: 13%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+
+	color: #11CBD7;
+	font-weight: 600;
+	font-size: 4vh;
+}
+h3#usuarioLogado{
+	position: absolute;
+	top: 30%;
+	
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+
+	color: #F0FFF3;
+	font-weight: 600;
+	font-size: 5.5vh;
+}
+.labelCadastrar{
+	font-family: 'barlow';
+	font-style: normal;
+	letter-spacing: 0.05em;
+	font-size: 3vh;
+	
+	position: absolute;
+	top: 0%;
+	
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+
+	color: #055B5C;
+	font-weight: 600;
+	font-size: 5.5vh;
+}
+p{
+	position: absolute;
+	top: 450px;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	
+	font-size: 25px;
+	text-align:center;
+}
+
+/* Area Semantica*/
+header#header{
+	
+	width: 100%;
+	height: 14%; 
+	left: 0px;
+	top: 0px;
+	
+	background: #F0FFF3;
+}
+
+section#main_section{
+	position: absolute;
+	width: 100%;
+	height: 86%;
+	left: 0px;
+	top: 14%;
+
+	background: #11CBD7;
+}
+
+aside#agenda_aside{
+	
+
+	background: #C6F1E7;
+	box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 15px; /*Agenda e Calendario precisam de proporção inexistente se em smartphone, precisam também subir se a tela diminuir muito, é necessario criar um button caso isso aconteça para que a div seja expndida uma por vez na tela minimizada ou de smartphone*/
+}
+
+article#calendar_article{
+	
+
+	background: #C6F1E7;
+	box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+}
+
+.sectionCadastrar{
+	position: absolute;
+	width: 80%;
+	height: 75%;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -70%);
+	
+	box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+	background: #F0FFF3;
+	border-radius: 8px;
+	z-index:4;
+}
+
+/* Passagem de Mês */
+div#passagemMes{
+	
+	width: 63%;
+	height: 11%;
+	left: 33%;
+	top: 0px;
+	
+	background: #11CBD7;
+}
+
+#trianguloDireita {
+	position: absolute;
+	position: absolute;
+	left: 35%;
+	top: 28%;
+	width: 0; 
+	height: 0; 
+	border-top: 18px solid transparent;
+	border-bottom: 18px solid transparent;
+	border-left: 18px solid #C6F1E7;
+}
+
+#trianguloEsquerda {
+	position: absolute;
+	left:0px;
+	top: 28%;
+	width: 0; 
+	height: 0; 
+	border-top: 18px solid transparent;
+	border-bottom: 18px solid transparent; 
+	border-right: 18px solid #C6F1E7;
+  
+}
+
+/*popup*/
+div#popMarcar{
+	display:none;
+	position:absolute;
+	width: 55%;
+	height: 60%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	box-shadow: 0px 0px 100px 100px #F0FFF3;
+	background: #055B5C;
+	border-radius: 8px;
+	z-index:3;
+}
+div#popEditar{
+	display:none;
+	position:absolute;
+	width:45%;
+	height: 65%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	box-shadow: 0px 0px 100px 100px #F0FFF3;
+	background: #055B5C;
+	border-radius: 8px;
+	z-index:4;
+}
+
+div#popEditar2{
+	display:none;
+	position:absolute;
+	width: 55%;
+	height: 75%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	box-shadow: 0px 0px 25px 25px #F0FFF3;
+	background: #055B5C;
+	border-radius: 8px;
+	z-index:4;
+}
+
+div#popEditar3{
+	display:none;
+	position:absolute;
+	width: 55%;
+	height: 75%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	box-shadow: 0px 0px 25px 25px #F0FFF3;
+	background: #055B5C;
+	border-radius: 8px;
+	z-index:4;
+}
+div#popEditar3_5{
+	display:none;
+	position:absolute;
+	width: 53%;
+	height: 75%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	box-shadow: 0px 0px 70px 70px #F0FFF3;
+	background: #055B5C;
+	border-radius: 8px;
+	z-index:4;
+}
+div#popEditar4{
+	display:none;
+	position:absolute;
+	width: 85%;
+	height: 85%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	box-shadow: 0px 0px 25px 25px #F0FFF3;
+	background: #C6F1E7;
+	border-radius: 8px;
+	z-index:4;
+}
+div#popEditar5{
+	display:none;
+	position:absolute;
+	width: 42%;
+	height: 42%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	box-shadow: 0px 0px 125px 125px #F0FFF3;
+	background: #055B5C;
+	border-radius: 8px;
+	z-index:4;
+}
+
+
+/*List*/
+ul#marked_list2 {
+	
+	
+	font-weight: 500;
+	font-size: 3.8vh;
+}
+
+/*line*/
+hr#linhaCalendario{
+	position: absolute;
+    top: 15%;
+    left: 4%;
+    width: 92%;
+    height: 0px;
+	
+	border: 1px solid #11CBD7;
+}
+hr#linhaAgenda2{
+	
+    width: 90%;
+    height: 0px;
+	
+	border: 1px solid #11CBD7;
+}
+
+/*table stylization*/
+table{
+	width: 100%;
+	top: 5%;
+	border-spacing: 5vh;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+	
+	font-weight: 600;
+	font-size: 3.5vh;
+}
+
+tr#title_table{
+	position: relative;
+
+	font-weight: 600;
+	font-size: 5.5vh;
+}
+
+
+/*button stylization */
+
+button#buttonMarcar2{ 
+	
+	
+
+	
+	font-size: 4.5vh;
+	font-weight: 600;
+	color: #F0FFF3;
+
+	cursor: pointer;
+	outline: none;
+	background: #FA4659;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0px;
+}
+button#buttonMarcar2:hover{
+	background-color: #055B5C;
+}
+
+button#buttonEditar2s {
+	
+	
+	
+	font-size: 4.5vh;
+	font-weight: 600;
+	color: #F0FFF3;
+	
+	cursor: pointer;
+	outline: none;
+	background: #FA4659;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0px;
+}
+button#buttonEditar2:hover{
+	background-color: #055B5C;
+}
+/*Editar atualizado comeca aqui*/
+button#buttonEditar2 {
+	
+	
+	font-size: 4.5vh;
+	font-weight: 600;
+	color: #F0FFF3;
+	
+	cursor: pointer;
+	outline: none;
+	background: #FA4659;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0px;
+}
+
+
+
+
+button#buttonEditar2:hover{
+	background-color: #055B5C;
+}
+
+button#buttonEditar2 {
+	position: absolute;
+	width: 29%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+	top: 90%;
+	
+	font-size: 4vh;
+	font-weight: 600;
+	color: #F0FFF3;
+	
+	cursor: pointer;
+	outline: none;
+	background: #FA4659;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0px; 
+}
+button#buttonEditar2:hover{
+	background-color: #11CBD7;
+}
+
+button#buttonEditar3 {
+	position: absolute;
+	width: 29%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+	top: 90%;
+	
+	font-size: 4vh;
+	font-weight: 600;
+	color: #F0FFF3;
+
+	cursor: pointer;
+	outline: none;
+	background: #055B5C;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0.5px;
+	border-style:solid;
+	border-color:white;
+}
+button#buttonEditar3:hover{
+	background-color: #FA4659;
+}
+
+button#buttonEditar-1 {
+	position: absolute;
+	width: 35%;
+	top: 55%;
+	left: 73%;
+	transform: translate(-50%, -50%);
+	top: 80%;
+	
+	font-size: 4.5vh;
+	font-weight: 600;
+	color: #F0FFF3;
+
+	cursor: pointer;
+	outline: none;
+	background: #FA4659;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0px;
+}
+button#buttonEditar-1:hover{
+	background-color: #11CBD7;
+}
+
+button#buttonAlt1{
+	position: absolute;
+	width: 36%;
+	left: 72%;
+	transform: translate(-50%, -50%);
+	top: 85%;
+	
+	font-size: 4vh;
+	font-weight: 600;
+	color: #F0FFF3;
+
+	cursor: pointer;
+	outline: none;
+	background: #055B5C;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0.5px;
+	border-style:solid;
+	border-color:white;
+}
+button#buttonAlt1:hover{
+	background-color: #FA4659;
+}
+
+button#buttonAlt2{
+	position: absolute;
+	width: 27%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+	top: 85%;
+	
+	font-size: 4vh;
+	font-weight: 600;
+	color: #F0FFF3;
+	
+	cursor: pointer;
+	outline: none;
+	background: #FA4659;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0px;
+}
+button#buttonAlt2:hover{
+	background-color: #11CBD7;
+}
+
+button#buttonCPF1{
+	position: absolute;
+	width: 8%;
+	left: 63%;
+	transform: translate(-50%, -50%);
+	top: 43%;
+	
+	font-size: 3vh;
+	font-weight: 600;
+	color: #F0FFF3;
+
+	cursor: pointer;
+	outline: none;
+	background: #055B5C;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0.5px;
+	border-style:solid;
+	border-color:white;
+}
+button#buttonCPF1:hover{
+	background-color: #055B5C;
+}
+
+button#buttonCPF2{
+	position: absolute;
+	width: 8%;
+	left: 74%;
+	transform: translate(-50%, -50%);
+	top: 43%;
+	
+	font-size: 3vh;
+	font-weight: 600;
+	color: #F0FFF3;
+
+	cursor: pointer;
+	outline: none;
+	background: #055B5C;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0.5px;
+	border-style:solid;
+	border-color:white;
+}
+button#buttonCPF2:hover{
+	background-color: #055B5C;
+}
+
+button#buttonNome1{
+	position: absolute;
+	width: 8%;
+	left: 13%;
+	transform: translate(-50%, -50%);
+	top: 43%;
+	
+	font-size: 3vh;
+	font-weight: 600;
+	color: #F0FFF3;
+
+	cursor: pointer;
+	outline: none;
+	background: #055B5C;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0.5px;
+	border-style:solid;
+	border-color:white;
+}
+button#buttonNome1:hover{
+	background-color: #055B5C;
+}
+
+button#buttonNome2{
+	position: absolute;
+	width: 8%;
+	left: 24%;
+	transform: translate(-50%, -50%);
+	top: 43%;
+	
+	font-size: 3vh;
+	font-weight: 600;
+	color: #F0FFF3;
+
+	cursor: pointer;
+	outline: none;
+	background: #055B5C;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0.5px;
+	border-style:solid;
+	border-color:white;
+}
+button#buttonNome2:hover{
+	background-color: #055B5C;
+}
+
+button#buttonTelefone1{
+	position: absolute;
+	width: 8%;
+	left: 13%;
+	transform: translate(-50%, -50%);
+	top: 55%;
+	
+	font-size: 3vh;
+	font-weight: 600;
+	color: #F0FFF3;
+
+	cursor: pointer;
+	outline: none;
+	background: #055B5C;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0.5px;
+	border-style:solid;
+	border-color:white;
+}
+button#buttonTelefone1:hover{
+	background-color: #055B5C;
+}
+
+button#buttonTelefone2{
+	position: absolute;
+	width: 8%;
+	left: 24%;
+	transform: translate(-50%, -50%);
+	top: 55%;
+	
+	font-size: 3vh;
+	font-weight: 600;
+	color: #F0FFF3;
+
+	cursor: pointer;
+	outline: none;
+	background: #055B5C;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0.5px;
+	border-style:solid;
+	border-color:white;
+}
+button#buttonTelefone2:hover{
+	background-color: #055B5C;
+}
+
+button#buttonData1{
+	position: absolute;
+	width: 8%;
+	left: 63%;
+	transform: translate(-50%, -50%);
+	top: 55%;
+	
+	font-size: 3vh;
+	font-weight: 600;
+	color: #F0FFF3;
+
+	cursor: pointer;
+	outline: none;
+	background: #055B5C;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0.5px;
+	border-style:solid;
+	border-color:white;
+}
+button#buttonData1:hover{
+	background-color: #055B5C;
+}
+
+button#buttonData2{
+	position: absolute;
+	width: 8%;
+	left: 74%;
+	transform: translate(-50%, -50%);
+	top: 55%;
+	
+	font-size: 3vh;
+	font-weight: 600;
+	color: #F0FFF3;
+
+	cursor: pointer;
+	outline: none;
+	background: #055B5C;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0.5px;
+	border-style:solid;
+	border-color:white;
+}
+button#buttonData2:hover{
+	background-color: #055B5C;
+}
+
+button#buttonEmail1{
+	position: absolute;
+	width: 8%;
+	left: 13%;
+	transform: translate(-50%, -50%);
+	top: 69%;
+	
+	font-size: 3vh;
+	font-weight: 600;
+	color: #F0FFF3;
+
+	cursor: pointer;
+	outline: none;
+	background: #055B5C;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0.5px;
+	border-style:solid;
+	border-color:white;
+}
+button#buttonEmail1:hover{
+	background-color: #055B5C;
+}
+
+button#buttonEmail2{
+	position: absolute;
+	width: 8%;
+	left: 24%;
+	transform: translate(-50%, -50%);
+	top: 69%;
+	
+	font-size: 3vh;
+	font-weight: 600;
+	color: #F0FFF3;
+
+	cursor: pointer;
+	outline: none;
+	background: #055B5C;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0.5px;
+	border-style:solid;
+	border-color:white;
+}
+button#buttonEmail2:hover{
+	background-color: #055B5C;
+}
+
+button#buttonEndereço1{
+	position: absolute;
+	width: 8%;
+	left: 13%;
+	transform: translate(-50%, -50%);
+	top: 81%;
+	
+	font-size: 3vh;
+	font-weight: 600;
+	color: #F0FFF3;
+
+	cursor: pointer;
+	outline: none;
+	background: #055B5C;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0.5px;
+	border-style:solid;
+	border-color:white;
+}
+button#buttonEndereço1:hover{
+	background-color: #055B5C;
+}
+
+button#buttonEndereço2{
+	position: absolute;
+	width: 8%;
+	left: 24%;
+	transform: translate(-50%, -50%);
+	top: 81%;
+	
+	font-size: 3vh;
+	font-weight: 600;
+	color: #F0FFF3;
+
+	cursor: pointer;
+	outline: none;
+	background: #055B5C;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0.5px;
+	border-style:solid;
+	border-color:white;
+}
+button#buttonEndereço2:hover{
+	background-color: #055B5C;
+}
+
+button#buttonAlergias1{
+	position: absolute;
+	width: 8%;
+	left: 63%;
+	transform: translate(-50%, -50%);
+	top: 69%;
+	
+	font-size: 3vh;
+	font-weight: 600;
+	color: #F0FFF3;
+
+	cursor: pointer;
+	outline: none;
+	background: #055B5C;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0.5px;
+	border-style:solid;
+	border-color:white;
+}
+button#buttonAlergias1:hover{
+	background-color: #055B5C;
+}
+
+button#buttonAlergias2{
+	position: absolute;
+	width: 8%;
+	left: 74%;
+	transform: translate(-50%, -50%);
+	top: 69%;
+	
+	font-size: 3vh;
+	font-weight: 600;
+	color: #F0FFF3;
+
+	cursor: pointer;
+	outline: none;
+	background: #055B5C;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0.5px;
+	border-style:solid;
+	border-color:white;
+}
+button#buttonAlergias2:hover{
+	background-color: #055B5C;
+}
+
+button#buttonSalvarAlt{
+	position: absolute;
+	width: 22%;
+	left: 70%;
+	transform: translate(-50%, -50%);
+	top: 89%;
+	
+	font-size: 4vh;
+	font-weight: 600;
+	color: #F0FFF3;
+
+	cursor: pointer;
+	outline: none;
+	background: #FA4659;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0px;
+}
+button#buttonSalvarAlt:hover{
+	background-color: #055B5C;
+}
+
+button#buttonExcluir1{
+	position: absolute;
+	width: 28%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+	top: 80%;
+	
+	font-size: 4vh;
+	font-weight: 600;
+	color: #F0FFF3;
+
+	cursor: pointer;
+	outline: none;
+	background: #055B5C;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0.5px;
+	border-style:solid;
+	border-color:white;
+}
+button#buttonExcluir1:hover{
+	background-color: #055B5C;
+}
+
+button#buttonExcluir2{
+	position: absolute;
+	width: 28%;
+	left: 74%;
+	transform: translate(-50%, -50%);
+	top: 80%;
+	
+	font-size: 4vh;
+	font-weight: 600;
+	color: #F0FFF3;
+
+	cursor: pointer;
+	outline: none;
+	background: #FA4659;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0px;
+}
+button#buttonExcluir2:hover{
+	background-color: #055B5C;
+}
+
+button#buttonExcluir {
+	position: absolute;
+	width: 55%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	top: 30%;
+	
+	font-size: 4.5vh;
+	font-weight: 600;
+	color: #F0FFF3;
+	
+	cursor: pointer;
+	outline: none;
+	background: #FA4659;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0px;
+}
+button#buttonExcluir:hover{
+	background-color: #055B5C;
+}
+
+button#buttonAddDentista {
+	position: absolute;
+	width: 55%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	top: 45%;
+	
+	font-size: 4.5vh;
+	font-weight: 600;
+	color: #F0FFF3;
+	
+	cursor: pointer;
+	outline: none;
+	background: #FA4659;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0px;
+}
+button#buttonAddDentista:hover{
+	background-color: #055B5C;
+}
+
+button#buttonAddRecepcionista {
+	position: absolute;
+	width: 55%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	top: 60%;
+	
+	font-size: 4.5vh;
+	font-weight: 600;
+	color: #F0FFF3;
+	
+	cursor: pointer;
+	outline: none;
+	background: #FA4659;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0px;
+}
+button#buttonAddRecepcionista:hover{
+	background-color: #055B5C;
+}
+button#buttonGerenciarCredenciais {
+	position: absolute;
+	width: 55%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	top: 60%;
+	
+	font-size: 2.5vh;
+	font-weight: 600;
+	color: #F0FFF3;
+	
+	cursor: pointer;
+	outline: none;
+	background: #FA4659;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0px;
+}
+button#buttonGerenciarCredenciais:hover{
+	background-color: #11CBD7;
+}
+
+/* image stylization*/
+img#logoHeader{
+	position: absolute;
+	height: 14vh;
+	left: 2vh;
+	top: 0px;
+}
+
+
+img#perfilUsuario{
+	
+	max-width: 65px;
+	max-height: 65px;
+	
+}
+img#setaVoltar{
+	position: absolute;
+	width: 12vh;
+	height: 12vh;
+	left: 2%;
+	top: 80%;
+}
+img#perfilMenu{
+	position: absolute;
+    width: 10vh;
+    height: 10vh;
+	top: 12%;
+	left: 42%;
+}
+img#fotoIcon{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 26%;
+    left: 38%;
+}
+img#editarIcon{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 55%;
+    left: 10%;
+}
+img#perfisIcon{
+    position: absolute;
+    width: 20px;
+    height: 16px;
+    top: 65%;
+    left: 10%;
+}
+img#cartaoIcon{
+    position: absolute;
+    width: 20px;
+    height: 16px;
+    top: 75%;
+    left: 10%;
+}
+
+/*Menu usuario*/
+div#popMenu{
+	display:none;
+	position:absolute;
+	width: 30%;
+	height: 50%;
+	top: 10%;
+	left: 65%;
+
+	box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25);
+	background: #055B5C;
+	border-radius: 8px;
+	z-index:4;
+}
+
+div#menuUsuario{
+	
+	width: 12%;
+	max-height: 100px;
+	height: 100%; 
+	right: 0px;
+	
+	background: #F0FFF3;
+}
+
+a#trianguloMenu {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  width: 0px; 
+  height: 0px; 
+  
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #949396;
+}
+/* circle stylization*/
+.circle {
+	position: absolute;
+    width: 5.5vh;
+    height: 5.5vh;
+	top: 3%;
+    border-radius: 50%; 
+    margin: 0px;
+	z-index: 1;
+	
+	background: #C6F1E7;
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+
+/*Editar Ficha */
+input#inpEditNome{
+	position: absolute;
+	top: 195px;
+	outline: 0 none;
+}
+input#inpEditCPF{
+	position: absolute;
+	top: 260px;
+	outline: 0 none;
+}
+
+input#inputProximo{
+	position: absolute;
+	width: 180px;
+	height: 40px;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	top: 325px;
+	
+	font-size: 32px;
+	font-weight: 600;
+	color: #F0FFF3;
+
+	cursor: pointer;
+	outline: none;
+	background: #FA4659;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0px;
+}
+input#inputProximo:hover{
+	background-color: #11CBD7;
+}
+label#labeNomeEdit{
+	position: absolute;
+	top: 160px;
+
+}
+label#labeCPFEdit{
+	position: absolute;
+	top: 225px;
+}
+
+input#inputEditar {
+	position: absolute;
+	width: 160px;
+	height: 40px;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	top: 300px;
+	
+	font-size: 32px;
+	font-weight: 600;
+	color: #F0FFF3;
+
+	cursor: pointer;
+	outline: none;
+	background: #FA4659;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0px;
+}
+input#inputEditar:hover{
+	background-color: #11CBD7;
+}
+
+input#inpAlt3 {
+	position: absolute;
+	width: 150px;
+	height: 40px;
+	top: 85%;
+	left: 20%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	
+	font-size: 32px;
+	font-weight: 600;
+	color: #F0FFF3;
+
+	cursor: pointer;
+	outline: none;
+	background: #FA4659;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0px;
+}
+input#inpAlt3:hover{
+	background-color: #11CBD7;
+}
+
+input#inpAlt{
+	position: absolute;
+	left:40%;
+	width:60%;
+	top: 210px;
+	outline: 0 none;
+}
+input#inpAlt2{
+	position: absolute;
+	left:40%;
+	width:60%;
+	top: 335px;
+	outline: 0 none;
+}
+label#labelAlt{
+	position: absolute;
+	top: 160px;
+	font-size:4vh;
+}
+label#labelAlt2{
+	position: absolute;
+	top: 285px;
+	font-size:4vh;
+}
+label#label_patient_edit{
+	position: absolute;
+	top: 150px;
+}
+label#label_field{
+	position: absolute;
+	top: 210px;
+}
+label#label_change{
+	position: absolute;
+	top: 270px;
+}
+
+/*começa o marcar*/
+input#cpfPaciente{
+	position: absolute;
+	top: 26.5%;
+	background-color: #F0FFF3;
+	outline: 0 none;
+}
+input#croDentista{
+	position: absolute;
+	top: 40.5%;
+	background-color: #F0FFF3;
+	outline: 0 none;
+}
+input#dataConsulta{
+	position: absolute;
+	top: 54.5%;
+	background-color: #F0FFF3;
+	outline: 0 none;
+}
+input#horaConsulta{
+	position: absolute;
+	top: 68.5%;
+	left: 11%;
+	background-color: #F0FFF3;
+	outline: 0 none;
+}
+label#labelCPF{
+	position: absolute;
+	top: 18%;
+}
+label#labelCRO{
+	position: absolute;
+	top: 32%;
+}
+label#labelData{
+	position: absolute;
+	top: 46%;
+}
+label#labelHora{
+	position: absolute;
+	top: 60%;
+}
+input#inputMarcar {
+	position: absolute;
+	width: 20%;
+	height: 10%;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	top: 70%;
+	
+	font-size: 4vh;
+	font-weight: 600;
+	color: #F0FFF3;
+
+	cursor: pointer;
+	outline: none;
+	background: #FA4659;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0px;
+}
+input#inputMarcar:hover{
+	background-color: #11CBD7;
+}
+p#ouCadastrar{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	top: 75%;
+}
+a#linkCadastrarPaciente{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	top: 87%;
+}
+
+/*Cadastrar Paciente*/
+input#inputNomeCadastroPaciente{
+	position: absolute;
+	width: 44%;
+	top: 17.5%;
+	left: 4.5%;
+	outline: 0 none;
+}
+input#inputNomeSocialCadastroPaciente{
+	position: absolute;
+	width: 44%;
+	top: 17.5%;
+	left: 51.5%;
+	outline: 0 none;
+}
+input#inputCpfCadastroPaciente{
+	position: absolute;
+	top: 29.5%;
+	left: 4.5%;
+	outline: 0 none;
+}
+input#inputDataCadastroPaciente{
+	position: absolute;
+	width: 44%;
+	top: 41.5%;
+	left: 4.5%;
+	outline: 0 none;
+}
+input#inputTelefoneCadastroPaciente{
+	position: absolute;
+	width: 44%;
+	top: 41.5%;
+	left: 51.5%;
+	outline: 0 none;
+}
+input#inputEmailCadastroPaciente{
+	position: absolute;
+	top: 53.5%;
+	outline: 0 none;
+}
+input#inputEnderecoCadastroPaciente{
+	position: absolute;
+	top: 65.5%;
+	outline: 0 none;
+}
+input#inputCadastrarPaciente {
+	position: absolute;
+	width: 25%;
+	top: 90%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -90%);
+	
+	font-size: 4vh;
+	font-weight: 600;
+	color: #F0FFF3;
+	
+	cursor: pointer;
+	outline: none;
+	background: #FA4659;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0px;
+}
+input#inputCadastrarPaciente:hover{
+	background-color: #055B5C;
+}
+
+label#labelNomeCadastroPaciente{
+	position: absolute;
+	top: 12%;
+}
+
+label#labelNomeSocialCadastroPaciente{
+	position: absolute;
+	top: 12%;
+	left: 51%;
+}
+label#labelCpfCadastroPaciente{
+	position: absolute;
+	top: 24%;
+}
+label#labelDataCadastroPaciente{
+	position: absolute;
+	top: 36%;
+}
+label#labelTelefoneCadastroPaciente{
+	position: absolute;
+	left: 51%;
+	top: 36%;
+}
+label#labelEmailCadastroPaciente{
+	position: absolute;
+	top: 48%;
+}
+label#labelEnderecoCadastroPaciente{
+	position: absolute;
+	top: 60%;
+}
+
+/*Cadastrar Recepcionista*/
+input#inputNomeCadastroRecepcionista{
+	position: absolute;
+	width: 44%;
+	top: 17.5%;
+	left: 4.5%;
+	outline: 0 none;
+}
+input#inputNomeSocialCadastroRecepcionista{
+	position: absolute;
+	width: 44%;
+	top: 17.5%;
+	left: 51.5%;
+	outline: 0 none;
+}
+input#inputCodCadastroRecepcionista{
+	position: absolute;
+	top: 29.5%;
+	left: 4.5%;
+	outline: 0 none;
+}
+input#inputTelefoneCadastroRecepcionista{
+	position: absolute;
+	width: 44%;
+	top: 41.5%;
+	left: 51.5%;
+	outline: 0 none;
+}
+input#inputEmailCadastroRecepcionista{
+	position: absolute;
+	width: 44%;
+	top: 41.5%;
+	outline: 0 none;
+}
+input#inputCadastrarRecepcionista {
+	position: absolute;
+	width: 25%;
+	top: 60%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -90%);
+	
+	font-size: 4vh;
+	font-weight: 600;
+	color: #F0FFF3;
+	
+	cursor: pointer;
+	outline: none;
+	background: #FA4659;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0px;
+}
+input#inputCadastrarRecepcionista:hover{
+	background-color: #055B5C;
+}
+
+label#labelNomeCadastroRecepcionista{
+	position: absolute;
+	top: 12%;
+}
+
+label#labelNomeSocialCadastroRecepcionista{
+	position: absolute;
+	top: 12%;
+	left: 51%;
+}
+label#labelCodCadastroRecepcionista{
+	position: absolute;
+	top: 24%;
+}
+label#labelTelefoneCadastroRecepcionista{
+	position: absolute;
+	left: 51%;
+	top: 36%;
+}
+label#labelEmailCadastroRecepcionista{
+	position: absolute;
+	top: 36%;
+}
+
+/*Cadastrar Dentista*/
+input#inputNomeCadastroDentista{
+	position: absolute;
+	width: 44%;
+	top: 17.5%;
+	left: 4.5%;
+	outline: 0 none;
+}
+input#inputNomeSocialCadastroDentista{
+	position: absolute;
+	width: 44%;
+	top: 17.5%;
+	left: 51.5%;
+	outline: 0 none;
+}
+input#inputCroCadastroDentista{
+	position: absolute;
+	width: 44%;
+	top: 29.5%;
+	left: 4.5%;
+	outline: 0 none;
+}
+input#inputEspecialidadeCadastroDentista{
+	position: absolute;
+	width: 44%;
+	top: 29.5%;
+	left: 51.5%;
+	outline: 0 none;
+}
+.checkboxDisponibilidade{
+	position: absolute;
+	width: 4%;
+	height: 4%;
+	left: 4.5%;
+	
+	border-radius: 5vh;
+	border: 0px;
+}
+input#inputDisponibilidadeSegundaCadastroDentista{
+	position: absolute;
+	top: 40%
+}
+input#inputDisponibilidadeTerçaCadastroDentista{
+	position: absolute;
+	top: 46%
+}
+input#inputDisponibilidadeQuartaCadastroDentista{
+	position: absolute;
+	top: 52%
+}
+input#inputDisponibilidadeQuintaCadastroDentista{
+	position: absolute;
+	top: 58%
+}
+input#inputDisponibilidadeSextaCadastroDentista{
+	position: absolute;
+	top: 64%
+}
+input#inputDisponibilidadeSabadoCadastroDentista{
+	position: absolute;
+	top: 70%
+}
+input#inputDisponibilidadeDomingoCadastroDentista{
+	position: absolute;
+	top: 76%
+}
+
+input#inputCadastrarDentista {
+	position: absolute;
+	width: 25%;
+	top: 90%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -90%);
+	
+	font-size: 4vh;
+	font-weight: 600;
+	color: #F0FFF3;
+	
+	cursor: pointer;
+	outline: none;
+	background: #FA4659;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0px;
+}
+input#inputCadastrarDentista:hover{
+	background-color: #055B5C;
+}
+
+label#labelNomeCadastroDentista{
+	position: absolute;
+	top: 12%;
+}
+
+label#labelNomeSocialCadastroDentista{
+	position: absolute;
+	top: 12%;
+	left: 51%;
+}
+label#labelCroCadastroDentista{
+	position: absolute;
+	top: 24%;
+}
+label#labelEspecialidadeCadastroDentista{
+	position: absolute;
+	left: 51%;
+	top: 24%;
+}
+label#labelDisponibilidadeCadastroDentista{
+	position: absolute;
+	top: 36%;
+}
+label#labelDisponibilidadeSegundaCadastroDentista{
+	position: absolute;
+	top: 41%;
+	left: 8.5%;
+}
+label#labelDisponibilidadeTercaCadastroDentista{
+	position: absolute;
+	top: 47%;
+	left: 8.5%;
+
+}
+label#labelDisponibilidadeQuartaCadastroDentista{
+	position: absolute;
+	top: 53%;
+	left: 8.5%;
+}
+label#labelDisponibilidadeQuintaCadastroDentista{
+	position: absolute;
+	top: 59%;
+	left: 8.5%;
+}
+label#labelDisponibilidadeSextaCadastroDentista{
+	position: absolute;
+	top: 65%;
+	left: 8.5%;
+}
+label#labelDisponibilidadeSabadoCadastroDentista{
+	position: absolute;
+	top: 71%;
+	left: 8.5%;
+}
+label#labelDisponibilidadeDomingoCadastroDentista{
+	position: absolute;
+	top: 77%;
+	left: 8.5%;
+}
+
+/*Botão de fechar div*/
+.buttonClose {
+  position: absolute;
+  right: 5px;
+  top: 8px;
+  width: 18px;
+  height: 18px;
+}
+.buttonClose:before, .buttonClose:after {
+  position: absolute;
+  left: 0px;
+  content: ' ';
+  height: 18px;
+  width: 3px;
+  background-color: #FA4659;
+  border-radius: 5px;
+}
+.buttonClose:before {
+  transform: rotate(45deg);
+}
+.buttonClose:after {
+  transform: rotate(-45deg);
+}
+
+.forms {
+	position: absolute;
+	width: 80%;
+	height: 6%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+	border-radius: 5vh;
+	border: 0px;
+	
+}
+
+.forms2 {
+	position: absolute;
+	width: 91%;
+	height: 4.5%;
+	left: 5%;
+	
+	background: #055B5C;
+	border-radius: 5vh;
+	border: 0px;
+	background-color: #11CBD7;
+}
+
+/*Login*/
+
+
+.login2{
+	position:relative;
+	margin: auto;
+	box-shadow:1px 1px 5px #737373;
+	background-color:white;
+	padding:40px;
+	padding-bottom: 60px;
+	border-radius:15px;
+}
+
+
+.login{
+	position:relative;
+	width:28%;
+	margin: auto;
+	height:49vh;
+	left:20%;
+	transform: translate(-55%,32%);
+	max-height:50%;
+	max-width:50%;
+	box-shadow:1px 1px 5px #737373;
+	background-color:white;
+	padding:40px;
+	border-radius:15px;
+}
+
+.alinhar-top{
+	top:6%;
+	text-align:center;
+	position:absolute;
+	left:14%;
+}
+
+#textLogin1{
+	text-align: center;
+	font-weight: bold;
+}
+
+#textLogin2{
+	text-align: center;
+	font-weight: bold;
+}
+
+
+.Cod-acesso-senha > label{
+
+	text-align:left;
+	font-size:3vh;
+	font-weight: 600;
+	width: 95%;
+	display:block;
+}
+
+
+#labelLogin1{
+	
+
+
+}
+
+#labelLogin2{
+	
+}
+
+#labelLogin3{
+	
+}
+
+.Cod-acesso-senha > input{
+
+	text-align: center;
+	background-color:#11CBD7;
+	border-radius:30px;
+	outline:0;
+	width:100%;
+	height:25px;
+	border: 0px;
+	margin-bottom:3%;
+}
+
+#inputLogin1{
+	text-align: left;
+	width:100%;
+}
+
+#inputLogin2{
+	text-align: left;
+	width:100%
+}
+
+
+.Cod-acesso-senha > button{
+   
+
+   	text-align:center;
+	top:74%;
+	font-weight: 600;
+	font-size:4vh;
+	color:white;
+	background-color:#FA4659;
+	width: 100%;
+	border-radius:30px;
+	border: 0px;
+	margin-top:3%;
+}
+
+
+img#logoHeader2{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	height: 14vh;
+	
+}
+
+
+.buttonclass > button{
+	
+	font-size: 4.5vh;
+	font-weight: 600;
+	color: #F0FFF3;
+
+	cursor: pointer;
+	outline: none;
+	background: #FA4659;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 0px;
+}
+
+@media only screen and (max-device-width: 900px) 
+{
+/* .menu { width:100%; } */
+	h1#h1OntologicalClinic2{
+	
+	padding-top: 20px;
+	position: relative;
+	height: 80px;
+	font-size: 4vh;
+
+	}
+
+
+
+
+	img#logoHeader2{
+	height: 14vh;
+	top: 0px;
+	}
+
+	img#perfilUsuario{
+	
+	
+	}
+	div#menuUsuario{
+	
+	}
+	
+}
+

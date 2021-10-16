@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width"> <!--Responsividade-->
+		<title>Sistema de Clinicas CMMF</title>
+		<link rel="shortcut icon" href="_img/icon.ico" > <!--Adiciona faviticon-->
+		<link rel="stylesheet" type="text/css" href="_css/style.css" />  <!--Adiciona CSS-->
+	</head>
+	
+	<body id = "bodyCadastrar">
+		<header id = "header">
+			<img id = "logoHeader" alt="Logo CMMF" src="_img/logo.PNG"/>
+			
+			<h1 id = "h1OntologicalClinic" class = "text">Clinica Odontologica</h1>
+			
+		</header>
+				
+		<section id = "sectionCadastrarDentista" class = "sectionCadastrar">			
+				<h3 id = "labelCadastrarDentista" class = "labelCadastrar">Cadastrar Dentista</h3>
+				
+				<form method = "post" id="formularioCadastrarDentista">
+					<label class = "text3" id = "labelNomeCadastroDentista">Nome</label><br>
+					<input type = "text" value="" class = "forms2" id="inputNomeCadastroDentista" required><br>
+					
+					<label class = "text3" id = "labelNomeSocialCadastroDentista">Nome Social (opcional)</label><br>
+					<input type = "text" value="" class = "forms2" id= "inputNomeSocialCadastroDentista"><br>
+					
+					<label class = "text3" id = "labelCroCadastroDentista">CRO</label><br>
+					<input type = "text" value="" class="forms2" id="inputCroCadastroDentista" required><br>
+					
+					<label class="text3" id="labelEspecialidadeCadastroDentista">Especialidade</label><br>
+					<input type="text" value="" placeholder = "Dentística,  Implantodontia..." class="forms2" id="inputEspecialidadeCadastroDentista" required><br>
+						
+					<label class = "text3" id = "labelDisponibilidadeCadastroDentista">Disponibilidade da Semana</label><br>
+					<input type = "checkbox" value="" class="checkboxDisponibilidade" id="inputDisponibilidadeSegundaCadastroDentista" ><br>
+					<label class = "text3" id = "labelDisponibilidadeSegundaCadastroDentista">Segunda-feira</label><br>
+					
+					<input type = "checkbox" value="" class="checkboxDisponibilidade" id="inputDisponibilidadeTerçaCadastroDentista" ><br>	
+					<label class = "text3" id = "labelDisponibilidadeTercaCadastroDentista">Terça-feira</label><br>
+					
+					<input type = "checkbox" value="" class="checkboxDisponibilidade" id="inputDisponibilidadeQuartaCadastroDentista" ><br>	
+					<label class = "text3" id = "labelDisponibilidadeQuartaCadastroDentista">Quarta-feira</label><br>
+					
+					<input type = "checkbox" value="" class="checkboxDisponibilidade" id="inputDisponibilidadeQuintaCadastroDentista" ><br>	
+					<label class = "text3" id = "labelDisponibilidadeQuintaCadastroDentista">Quinta-feira</label><br>
+					
+					<input type = "checkbox" value="" class="checkboxDisponibilidade" id="inputDisponibilidadeSextaCadastroDentista" ><br>	
+					<label class = "text3" id = "labelDisponibilidadeSextaCadastroDentista">Sexta-feira</label><br>
+					
+					<input type = "checkbox" value="" class="checkboxDisponibilidade" id="inputDisponibilidadeSabadoCadastroDentista" ><br>	
+					<label class = "text3" id = "labelDisponibilidadeSabadoCadastroDentista">Sábado</label><br>
+					
+					<input type = "checkbox" value="" class="checkboxDisponibilidade" id="inputDisponibilidadeDomingoCadastroDentista" ><br>
+					<label class = "text3" id = "labelDisponibilidadeDomingoCadastroDentista">Domingo</label><br>					
+						
+					<input type="button" value="Cadastrar" id = "inputCadastrarDentista" class = "text" onclick = "sendInfoDentista()"> 
+					
+				</form>		
+		</section>
+		
+		<a href = "gerenciarCredenciais.html#"><img id = "setaVoltar" alt="setaVoltar" src="_img/setaVoltar.PNG"/></a>
+		
+		<script type = "text/javascript" src = "sendInfo.js" ></script>	
+	</body>
+</html>

@@ -1,0 +1,27 @@
+== Credenciais ==
+
+*Login:
+1234567
+uva
+
+*Teste paciente existe dentista não
+98235788871
+
+*Cadastrar paciente
+Mariana Felícia
+MF
+76432199673
+12/03/1999
+675548421
+mariana.feli@gmail.com
+Rua Laranjeiras
+
+*Marcar Consulta
+cpf: 
+76432199673
+
+cro: 
+32329RG
+
+*Paciente com Anamnese
+Ana Anastácia

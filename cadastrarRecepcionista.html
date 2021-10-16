@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width"> <!--Responsividade-->
+		<title>Sistema de Clinicas CMMF</title>
+		<link rel="shortcut icon" href="_img/icon.ico" > <!--Adiciona faviticon-->
+		<link rel="stylesheet" type="text/css" href="_css/style.css" />  <!--Adiciona CSS-->
+	</head>
+	
+	<body id = "bodyCadastrar">
+		<header id = "header">
+			<img id = "logoHeader" alt="Logo CMMF" src="_img/logo.PNG"/>
+			
+			<h1 id = "h1OntologicalClinic" class = "text">Clinica Odontologica</h1>
+			
+		</header>
+				
+		<section id = "sectionCadastrarRecepcionista" class = "sectionCadastrar">			
+				<h3 id = "labelCadastrarRecepcionista" class = "labelCadastrar">Cadastrar Recepcionista</h3>
+				
+				<form method = "post" id="formularioCadastrarRecepcionista">
+					<label class = "text3" id = "labelNomeCadastroRecepcionista">Nome</label><br>
+					<input type = "text" value="" class = "forms2" id="inputNomeCadastroRecepcionista" required><br>
+					
+					<label class = "text3" id = "labelNomeSocialCadastroRecepcionista">Nome Social (opcional)</label><br>
+					<input type = "text" value="" class = "forms2" id= "inputNomeSocialCadastroRecepcionista"><br>
+					
+					<label class = "text3" id = "labelCodCadastroRecepcionista">Código de Acesso</label><br>
+					<input type = "text" value="" placeholder = "Crie um código de Acesso" class="forms2" id="inputCodCadastroRecepcionista" required><br>
+									
+					<label class="text3" id="labelTelefoneCadastroRecepcionista">Telefone</label><br>
+					<input type="text" value="" class="forms2" id="inputTelefoneCadastroRecepcionista" required><br>
+					
+					<label class = "text3" id = "labelEmailCadastroRecepcionista">Email</label><br>
+					<input type = "email" value="" class = "forms2" id="inputEmailCadastroRecepcionista" required><br>
+									
+					<input type="button" value="Cadastrar" id = "inputCadastrarRecepcionista" class = "text" onclick = "sendInfoRecepcionista()"> 
+					
+				</form>		
+		</section>
+		
+		<a href = "gerenciarCredenciais.html#"><img id = "setaVoltar" alt="setaVoltar" src="_img/setaVoltar.PNG"/></a>
+		
+		<script type = "text/javascript" src = "sendInfo.js" ></script>	
+	</body>
+</html>

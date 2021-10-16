@@ -1,0 +1,97 @@
+
+#agenda_aside
+{
+	position: relative;
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 15%;
+}
+
+.botao2
+{
+	text-align: center;
+	margin-bottom: 20px;
+	width: 85%;
+
+}
+
+
+
+#passagemMes2
+{
+	
+	text-align: center;
+} 
+
+#trianguloEsquerda
+{
+	
+ 
+}
+
+#mesSelecionado
+{
+	width: 100%;
+}
+
+#anoSelecionado
+{
+	width: 100%;
+}
+
+
+.fundo2
+{
+	background-color:#11cdcb;
+}
+
+#calendario
+{
+	background: #C6F1E7;
+	box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+}
+
+#calendario tr:nth-child(even){background-color: #f2f2f2;}
+#calendario tr:hover {background-color: #ddd;}
+
+#calendario th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+article#calendar_article
+{
+	width: 100%;
+}
+
+table
+{
+	line-height: 50px;
+}
+
+
+@media only screen and (max-device-width: 900px) 
+{
+
+
+	#agenda_aside
+	{
+		position: relative;
+		margin-left: 5%;
+		text-align: center;
+		margin-right: 5%;
+		margin-top: 15%;
+	}
+	#h1OntologicalClinic2
+	{ 
+		text-align: center;	
+		margin-left: 10px;
+	}
+}
+

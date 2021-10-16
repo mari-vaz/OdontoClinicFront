@@ -1,0 +1,372 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"> <!--Responsividade-->
+		<title>Sistema de Clinicas CMMF</title>
+		<link rel="shortcut icon" href="_img/icon.ico" > <!--Adiciona faviticon-->
+		<link rel="stylesheet" type="text/css" href="_css/style.css" />  <!--Adiciona CSS-->
+		<link rel="stylesheet" type="text/css" href="_css/style2.css" />  <!--Adiciona CSS-->
+		<link href="_css/bootstrap.min.css" rel="stylesheet"> <!-- Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	</head>
+	
+	<body class = "fundo2">
+		<div class = "container-fluid">
+			<div class = "row" id = "atheaderlogo"> 
+					<div class="col-md-1 col-xs-2">
+						<img id = "logoHeader2" alt = "Logo CMMF" src = "_img/logo.PNG"/>
+					</div>
+					<div class="col-md-9 col-xs-9">
+						<h1 id = "h1OntologicalClinic2" class = "text">Ontological Clinic</h1>
+					</div>
+					<div class="col-md-2 col-xs-1">
+						<div class="aside23" id = "menuUsuario" onclick="document.getElementById('popMenu').style.display='block';">
+							<a href = "#" id = "trianguloMenu" ></a>
+							<img href = "#" id = "perfilUsuario" class = "circle" alt="Perfil do Usuario" src="_img/perfilUsuario.PNG"/>
+						</div>
+					</div>
+		</div>
+		<section id = "main_section">	
+			<div class = "container-fluid">
+				<div class = "row" > 
+					
+					<div class="col-md-4 col-xs-12">			
+						<aside id= "agenda_aside" >
+						
+							<h3 id = "diaSelecionado2" class = "text"> 15 </h3>
+							<h3 id = "mesSelecionado2" class = "text"> Junho </h3>
+							
+							<hr id = "linhaAgenda2"/>
+							
+							<ul type = "circle" id = "marked_list2" class = "text">
+								<li> Dr. João, 08:00</li>
+								<br>
+							</ul>
+							<div class="buttonclass">
+								<button id = "buttonMarcar2" class = "text botao2" href="#" onclick="document.getElementById('popMarcar').style.display='block';">Marcar consulta</button>
+								<button type = "button" class = "text buttonedit botao2" href="#" onclick="document.getElementById('popEditar').style.display='block';">Editar ficha</button>
+							</div>
+											
+						</aside>
+					</div>
+				<div class="col-md-8 col-xs-12" id="teste">
+						<div id="calendariodiv">		
+							<div id = "passagemMes2">
+
+								<div class = "container-fluid">
+									<div class="col-md-4 col-xs-1"> </div>
+									<div class="col-md-1 col-xs-2">	
+										<a href = "#" id = "trianguloEsquerda" onclick = "mesAnterior()" ></a>
+									</div>
+									<div class="col-md-2 col-xs-4">	
+										<div class = "container-fluid">
+											<div class="col-md-12 col-xs-12">
+												<h2 id = "mesSelecionado" class = "text"> Junho </h2>
+											</div>
+											<div class="col-md-12 col-xs-12">
+												<h2 id = "anoSelecionado" class = "text"> 2021 </h2>
+												<br><br><br>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-5 col-xs-4">	
+										<a href = "#" id = "trianguloDireita" onclick = "mesPosterior()" ></a>
+									</div>
+								</div>
+
+								
+								<div class = "container-fluid" >
+									<div class="row">
+									<div class="col-md-7 col-xs-7">
+									
+											<article id = "calendar_article">
+												<table class = "text" id="calendario">
+													<tbody class = "calendar_table">
+													  <tr id = "title_table" >
+														<td>D</td>
+														<td>S</td>
+														<td>T</td>
+														<td>Q</td>
+														<td>Q</td>
+														<td>S</td>
+														<td>S</td>
+													  </tr>
+													  <hr id = "linhaCalendario"/>
+													  <tr>
+														<td>1</td>
+														<td>2</td>
+														<td>3</td>
+														<td>4</td>
+														<td>5</td>
+														<td>6</td>
+														<td>7</td>
+													  </tr>
+													  <tr>
+														<td>8</td>
+														<td>9</td>
+														<td>10</td>
+														<td>11</td>
+														<td>12</td>
+														<td>13</td>
+														<td>14</td>
+													  </tr>
+													  <tr>
+														<td>15</td>
+														<td>16</td>
+														<td>17</td>
+														<td>18</td>
+														<td>19</td>
+														<td>20</td>
+														<td>21</td>
+													  </tr>
+													  <tr>
+														<td>22</td>
+														<td>23</td>
+														<td>24</td>
+														<td>26</td>
+														<td>27</td>
+														<td>28</td>
+														<td>29</td>
+													  </tr>
+													  <tr>
+														<td>30</td>
+														<td></td>
+														<td></td>
+														<td></td>
+														<td></td>
+														<td></td>
+														<td></td>
+													  </tr>
+													  <tr>
+														<td></td>
+														<td></td>
+														<td></td>
+														<td></td>
+														<td></td>
+														<td></td>
+														<td></td>
+													  </tr>
+													</tbody>
+												</table>
+												
+											</article>
+										
+									</div>
+								</div>
+								
+								</div>
+							
+							</div>
+
+
+							</div>
+						
+						</div>
+				</div>
+			</div>	
+			
+		</section>
+		
+		<div id = "popMarcar">
+			<a href = "#" class = "buttonClose" onclick="document.getElementById('popMarcar').style.display='none';"></a>
+			
+			<h3 id = "labelMarcar" class = "text2">Marcar consulta</h3>
+			
+			<form method = "post" id="formularioMarcar">
+				<label class = "text2" id = "labelCPF">CPF do Paciente</label><br>
+				<input type = "text" value = "" class="forms" id="cpfPaciente" required><br>
+				
+				<label class = "text2" id = "labelCRO">CRO do Dentista</label><br>
+				<input type = "text" value = "" class = "forms" id = "croDentista" required><br>
+				
+				<label class = "text2" id = "labelData">Data</label><br>
+				<input type = "datetime-local" value = "" class = "forms" id = "dataConsulta" required><br><!--datetime-local-->			
+								
+				<input type="button" value="Marcar" id = "inputMarcar" class = "text" onclick = "sendInfoInserir()">
+								
+			</form>
+			<p class = "text2" id = "ouCadastrar">ou</p>
+			<a class = "text2" id = "linkCadastrarPaciente" href = "./cadastrarPaciente.html#">Cadastre o Paciente</a>
+				
+		</div>
+		
+		<div id = "popEditar">
+			<a href = "#" class = "buttonClose" onclick="document.getElementById('popEditar').style.display='none';"></a>
+			
+			<h3 id = "labelEditar" class = "text2 ">Editar ficha</h3>
+			
+			<form name="forms">
+				<h2 class="text2" id="labelocalizEdit1">Localize a ficha do paciente.</h2>
+				<h2 class="text2" id="labelocalizEdit2">Preencha apenas um campo.</h2>
+				
+				<label class="text2" id="labeNomeEdit" >Nome</label><br>
+				<input type="text" value = "" class="forms" id="inpEditNome">
+				
+				<label class="text2" id="labeCPFEdit">CPF</label><br>
+				<input type="text" value = "" class="forms" id="inpEditCPF">
+				
+				<button id = "buttonEditar-1" class = "text" href="#" onclick="sendInfoFicha();document.getElementById('popEditar2').style.display='block';">Próximo</button>
+				
+				
+			</form>			
+		</div>
+		
+		<div id = "popEditar2">
+			<a href = "#" class = "buttonClose" onclick="document.getElementById('popEditar2').style.display='none';"></a>
+			
+			<h3 id = "labelEditar" class = "text2">Editar ficha</h3>
+			
+			<form name="forms">
+				<h2 class="text2" id="labelocalizEdit3">Ficha localizada!</h2>
+				<h3 id = "labelEditarCPF" class = "text2">-CPF:</h3>
+				<h2 class="text2" id="labelocalizEditCPF">0</h2>
+				
+				<h3 id = "labelEditarNome" class = "text2">-Nome:</h3>
+				<h2 class="text2" id="labelocalizEditNome">0</h2>
+				
+				<h3 id = "labelEditarTelefone" class = "text2">-Telefone:</h3>
+				<h2 class="text2" id="labelocalizEditTelefone">0</h2>
+				
+				<h3 id = "labelEditarData" class = "text2">-Data de nasc.:</h3>
+				<h2 class="text2" id="labelocalizEditData">0</h2>
+				
+				<h3 id = "labelEditarEmail" class = "text2">-Email:</h3>
+				<h2 class="text2" id="labelocalizEditEmail">0</h2>
+				
+				<h3 id = "labelEditarEndereço" class = "text2">-Endereço:</h3>
+				<h2 class="text2" id="labelocalizEditEndereço">0</h2>
+			
+				<button id = "buttonEditar2" class = "text" href="#" onclick="document.getElementById('popEditar3').style.display='block';lerAnamnese()">Continuar</button>
+				<button id = "buttonEditar3" class = "text">Repetir Busca</button>
+			</form>			
+		</div>
+		
+		<div id = "popEditar3">
+			<a href = "#" class = "buttonClose" onclick="document.getElementById('popEditar3').style.display='none';"></a>
+			
+			<h3 id = "labelEditar" class = "text2">Editar ficha</h3>
+			
+			<form name="forms">
+				<h2 class="text2" id="labelocalizEdit4">Anamnese</h2>
+				
+				<h3 id = "labelEditAnamnese1" class = "text2">Alergia:</h3>
+				<h2 class="text2" id="labelEditAnam1">0</h2>
+				
+				<h3 id = "labelEditAnamnese2" class = "text2">Fumante:</h3>
+				<h2 class="text2" id="labelEditAnam2">0</h2>
+				
+				<h3 id = "labelEditAnamnese3" class = "text2">ID:</h3>
+				<h2 class="text2" id="labelEditAnam3">0</h2>
+												
+				<button id = "buttonAlt2" class = "text" href="#" onclick="document.getElementById('popEditar3_5').style.display='block';">Alterar</button>
+				<button id = "buttonAlt1" class = "text" href="#" onclick="document.getElementById('popEditar4').style.display='block';">Ficha Estendida</button>
+				
+		
+				
+			</form>			
+		</div>
+		
+		<div id = "popEditar3_5">
+			<a href = "#" class = "buttonClose" onclick="document.getElementById('popEditar3_5').style.display='none';"></a>
+			
+			<h3 id = "labelEditar" class = "text2">Editar ficha</h3>
+			
+			<form name="forms">
+				<h2 class="text2" id="labelocalizEdit1">Digite a alteração no campo desejado: </h2>
+				
+				<label class="text2" id="labelAlt">Alergia: </label><br>
+				<input type="text" value = "" class="forms" id="inpAlt" placeholder = "Digite o tipo de alergia">
+					
+				<!-- <h2 class="text2" id="labelAlt1">Fumante: </h2>	 -->
+				<label class="text2" id="labelAlt2">Fumante: </label><br>
+				<input type="text" value = "" class="forms" id="inpAlt2" placeholder = "Digite sim ou não">
+												
+				<input type="button" value="Salvar" id = "inpAlt3" class = "text4" onclick = "atualizarAnamnese()"> 
+				<button id = "buttonAlt1" class = "text" href="#" onclick="document.getElementById('popEditar4').style.display='block';">Ficha Estendida</button>
+				<!-- <p class = "text" style="text-align:center" id = "msgServer"></p> -->
+		
+				
+			</form>			
+		</div>
+		
+		<div id = "popEditar4">
+			<a href = "#" class = "buttonClose" onclick="document.getElementById('popEditar4').style.display='none';"></a>
+			
+			<h3 id = "labelEditarSave" class = "text2">Editar Ficha</h3>
+			
+			<form name="forms">
+				<h2 class="text2" id="labelocalizEdit5">Ficha Estendida:</h2>
+				
+				<h3 id = "labelFichaExtCPF" class = "text2">- CPF:</h3>
+				<h2 class="text2" id="labFichaExtCPF">123.456.789-01</h2>
+				<button id = "buttonCPF1" class = "text">Editar</button>
+				<button id = "buttonCPF2" class = "text" href="#" onclick="document.getElementById('popEditar5').style.display='block';">Excluir</button>
+				
+				<h3 id = "labelFichaExtNome" class = "text2">- Nome:</h3>
+				<h2 class="text2" id="labFichaExtNome">Paciente da Silva</h2>
+				<button id = "buttonNome1" class = "text">Editar</button>
+				<button id = "buttonNome2" class = "text" href="#" onclick="document.getElementById('popEditar5').style.display='block';">Excluir</button>
+				
+				<h3 id = "labelFichaExtTelefone" class = "text2">- Telefone:</h3>
+				<h2 class="text2" id="labFichaExtTelefone">(99)99999-9999</h2>
+				<button id = "buttonTelefone1" class = "text">Editar</button>
+				<button id = "buttonTelefone2" class = "text" href="#" onclick="document.getElementById('popEditar5').style.display='block';">Excluir</button>
+				
+				<h3 id = "labelFichaExtData" class = "text2">- Data de nasc.:</h3>
+				<h2 class="text2" id="labFichaExtData">dd/mm/aaaa</h2>
+				<button id = "buttonData1" class = "text">Editar</button>
+				<button id = "buttonData2" class = "text" href="#" onclick="document.getElementById('popEditar5').style.display='block';">Excluir</button>
+				
+				<h3 id = "labelFichaExtEmail" class = "text2">- Email:</h3>
+				<h2 class="text2" id="labFichaExtEmail">paciente@email.com</h2>
+				<button id = "buttonEmail1" class = "text">Editar</button>
+				<button id = "buttonEmail2" class = "text" href="#" onclick="document.getElementById('popEditar5').style.display='block';">Excluir</button>
+				
+				<h3 id = "labelFichaExtEndereço" class = "text2">- Endereço:</h3>
+				<h2 class="text2" id="labFichaExtEndereço">Rua dos Bobos, Nº0, Parque Bairro, Cidade - UF</h2>
+				<button id = "buttonEndereço1" class = "text">Editar</button>
+				<button id = "buttonEndereço2" class = "text" href="#" onclick="document.getElementById('popEditar5').style.display='block';">Excluir</button>
+				
+				<h3 id = "labelFichaExtAlergia" class = "text2">- Alergias:</h3>
+				<h2 class="text2" id="labFichaExtAlergias">-</h2>
+				<button id = "buttonAlergias1" class = "text">Editar</button>
+				<button id = "buttonAlergias2" class = "text" href="#" onclick="document.getElementById('popEditar5').style.display='block';">Excluir</button>
+			
+				<button id = "buttonSalvarAlt" class = "text">Salvar Alteraçoes</button>
+				
+			</form>			
+		</div>
+		
+		<div id = "popEditar5">
+			<a href = "#" class = "buttonClose" onclick="document.getElementById('popEditar5').style.display='none';"></a>
+	
+			<form name="forms">
+				<h3 id = "labelEditar" class = "text2">Editar ficha</h3>
+				<h2 class="text2" id="labelExcluir1">Excluir esse dado permanentemente?</h2>
+				<h2 class="text2" id="labelExcluir2">Essa ação não pode ser desfeita.</h2>
+				
+				<button id = "buttonExcluir1" class = "text" >Cancelar</button>
+				<button id = "buttonExcluir2" class = "text" >Excluir</button>
+				
+			</form>			
+		</div>
+		
+		<div id = "popMenu">
+			<a href = "#" class = "buttonClose" onclick="document.getElementById('popMenu').style.display='none';"></a>
+			
+			<img href = "#" id = "perfilMenu" class = "circle" alt="Perfil do Usuario" src="_img/perfilUsuario.PNG"/>
+			<img href = "#" id = "fotoIcon" src="_img/fotoIcon.PNG"/>
+			
+			<h3 id = "usuarioLogado" class = "text2">Nome do Logado</h3>
+			
+			<a href="gerenciarCredenciais.html#"><button id = "buttonGerenciarCredenciais" class = "text" href="#"  >Gerenciar Credenciais</button></a>
+		
+		</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="_js/bootstrap.min.js"></script>
+	<script type = "text/javascript" src = "sendInfo.js" ></script>	
+	</body>
+</html>

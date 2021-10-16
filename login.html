@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"> <!--Responsividade-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Login</title>
+		<link rel="shortcut icon" href="_img/icon.ico" > <!--Adiciona faviticon-->
+		<link rel="stylesheet" type="text/css" href="_css/style.css" />  <!--Adiciona CSS-->
+		<link rel="stylesheet" type="text/css" href="_css/style2.css" />  <!--Adiciona CSS-->
+		<link href="_css/bootstrap.min.css" rel="stylesheet"> <!-- Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	</head>
+	
+	<body class="fundo">
+		<div class = "container-fluid">
+			<div class = "row" id = "atheaderlogo">
+				<div class="col-md-1 col-xs-3">
+					<img id = "logoHeader2" alt = "Logo CMMF" src = "_img/logo.PNG"/>
+				</div> 
+				<div class="col-md-9 col-xs-9"> 
+					<h1 id = "h1OntologicalClinic2" class = "text">Ontological Clinic</h1>
+				</div>
+			</div>
+			<br> <br>
+			<div class="row">
+		    	<div class="col-md-4"> </div>
+		    	<div class="col-md-4 col-xs-16">
+					<form> 
+						<div class = "login2">
+							<div>
+								<h1 class = "text" id = "textLogin1">Login</h1>
+								<h2 class = "text" id = "textLogin2">Preencha para prosseguir</h2>
+								<br><br>
+							</div>
+							<div class = "Cod-acesso-senha">
+								<label class = "text" id = "labelLogin1"> CRO/Cod. acesso </label>
+								<input type = "text" id = "inputLogin1" placeholder = "Digite o seu CRO/Cod.acesso"required>
+								<br><br>
+								<label class = "text" id = "labelLogin2"> Senha</label>					
+								<input type = "password" id = "inputLogin2" placeholder = "Digite a sua Senha"required>
+								<br><br>
+								<label class = "text" id = "labelLogin3"><input type = "checkbox">Lembrar de mim</label>
+								<button type = "button" class = "text" onclick = "sendInfoLogin()">Entrar</button>
+							</div>
+						</div>
+					</form>
+		    	</div>
+		    	<div class="col-md-4"> </div>
+  			</div>
+  			<div class="row">
+
+
+  			<br><br><br>
+  			</div>
+		</div>
+
+
+
+
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="_js/bootstrap.min.js"></script>
+		<script type = "text/javascript" src = "sendInfo.js" ></script>
+	</body>
+</html>

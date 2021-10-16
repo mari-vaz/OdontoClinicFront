@@ -1,0 +1,263 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width"> <!--Responsividade-->
+		<title>Sistema de Clinicas CMMF</title>
+		<link rel="stylesheet" type="text/css" href="_css/style.css" />  <!--Adiciona CSS-->
+		<link rel="stylesheet" type="text/css" href="_css/style2.css" />  <!--Adiciona CSS-->
+		<link href="_css/bootstrap.min.css" rel="stylesheet"> <!-- Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<style>
+			.numeroscalendario
+			{
+				line-height: 57px;
+			}
+			#trianguloEsquerda
+			{
+				position: absolute;
+				left: 60px;
+
+			}
+			#trianguloDireita
+			{
+				position: absolute;
+				left: 40px;
+				
+			}
+			
+			.numeroscalendario
+				{
+					line-height: 58px;
+				}
+			input#inputNomeCadastroPaciente2
+			{
+				
+				
+				
+				outline: 0 none;
+			}
+			input#inputNomeSocialCadastroPaciente2{
+			
+				
+				outline: 0 none;
+			}
+			input#inputCpfCadastroPaciente2{
+
+				outline: 0 none;
+			}
+			input#inputDataCadastroPaciente2{
+				
+			
+				
+				outline: 0 none;
+			}
+			input#inputTelefoneCadastroPaciente2{
+				
+				
+				outline: 0 none;
+			}
+			input#inputEmailCadastroPaciente2{
+				outline: 0 none;
+			}
+			input#inputEnderecoCadastroPaciente2{
+				outline: 0 none;
+			}
+			label#labelNomeCadastroPaciente2{
+				
+				
+				margin-left: 20px;
+			}
+
+			label#labelNomeSocialCadastroPaciente2{
+				
+				margin-top: 20px;
+				margin-left: 20px;
+			}
+			label#labelCpfCadastroPaciente2{
+				margin-top: 20px;
+				margin-left: 20px;
+			}
+			label#labelDataCadastroPaciente2{
+				margin-top: 20px;
+				margin-left: 20px;
+			}
+			label#labelTelefoneCadastroPaciente2{
+				margin-top: 20px;
+				margin-left: 20px;
+			}
+			label#labelEmailCadastroPaciente2{
+				margin-top: 20px;
+				margin-left: 20px;
+			}
+			label#labelEnderecoCadastroPaciente2{
+				margin-top: 20px;
+				margin-left: 20px;
+			}
+			.labelCadastrar2
+			{
+				font-family: 'barlow';
+				font-style: normal;
+				letter-spacing: 0.05em;
+				font-size: 3vh;
+				
+				
+				top: 0%;
+				
+				left: 50%;
+				
+
+				color: #055B5C;
+				font-weight: 600;
+				font-size: 5.5vh;
+			}
+			h1#h1OntologicalClinic2{
+	
+				top:20%;
+				margin-top: 20px;
+				position: absolute;
+				height: 80px;
+				font-size: 8vh;
+				}
+			@media only screen and (max-device-width: 900px) 
+			{
+
+				.sectionCadastrar{
+					position: absolute;
+					width: 80%;
+					height: 80%;
+					top: 70%;
+					left: 50%;
+					transform: translate(-50%, -70%);
+					
+					box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25);
+					border-radius: 15px;
+					background: #F0FFF3;
+					border-radius: 8px;
+					z-index:4;
+				}
+				.numeroscalendario
+				{
+					line-height: 50px;
+				}
+				
+				.image-size{
+				  width: 70px;
+				  height: 70px;
+				  display: block;
+				}
+
+				label#labelNomeSocialCadastroPaciente2{
+				
+				margin-top: 5px;
+				}
+				label#labelCpfCadastroPaciente2{
+					margin-top: 5px;
+					
+				}
+				label#labelDataCadastroPaciente2{
+					margin-top: 5px;
+					
+				}
+				label#labelTelefoneCadastroPaciente2{
+					margin-top: 5px;
+					
+				}
+				label#labelEmailCadastroPaciente2{
+					margin-top: 5px;
+					
+				}
+				label#labelEnderecoCadastroPaciente2{
+					margin-top: 5px;
+
+				}
+				input#inputCadastrarPaciente2 {
+				
+					width: 90%;
+					top: 98%;
+					margin-top: 7%;
+					margin-left: 5%;
+					
+					
+					font-size: 4vh;
+					font-weight: 600;
+					color: #F0FFF3;
+					
+					cursor: pointer;
+					outline: none;
+					background: #FA4659;
+					box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.35);
+					border-radius: 20px;
+					border: 0px;
+				}
+				img#setaVoltar
+				{
+					position: absolute;
+					width: 12vh;
+					height: 12vh;
+					left: 2%;
+					top: 95%;
+				}
+				h1#h1OntologicalClinic2{
+				margin-top: 0px;
+				padding-top: 20px;
+				position: absolute;
+				height: 80px;
+				font-size: 3vh;
+				}
+			}
+		</style>
+	</head>
+	
+	<body class = "fundo2">
+		<div class = "container-fluid">
+
+			<div class = "row" id = "atheaderlogo"> 
+					<div class="col-md-1 col-xs-1">
+						<img id = "logoHeader2 " alt = "Logo CMMF" class="image-size" src = "_img/logo.PNG"/>
+					</div>
+					<div class="col-md-9 col-xs-1">
+						<h1 id = "h1OntologicalClinic2" class = "text headertext">Ontological Clinic</h1>
+					</div>
+					
+		</div>
+				
+		<section class = "sectionCadastrar">			
+				
+				<h3 id = "labelCadastrarPaciente" class = "labelCadastrar2" style="text-align: center">Cadastrar Paciente</h3>
+				
+
+				<form method = "post" id="formularioCadastrarPaciente">
+					<label class = "text3" id = "labelNomeCadastroPaciente2">Nome</label><br>
+					<input type = "text" value="" class = "forms2" id="inputNomeCadastroPaciente2" required> <br>
+					
+					<label class = "text3" id = "labelNomeSocialCadastroPaciente2">Nome Social (opcional)</label><br>
+					<input type = "text" value="" class = "forms2" id= "inputNomeSocialCadastroPaciente2"><br>
+					
+					<label class = "text3" id = "labelCpfCadastroPaciente2">CPF</label><br>
+					<input type = "text" value="" class="forms2" id="inputCpfCadastroPaciente2" required><br>
+					
+					<label class="text3" id="labelDataCadastroPaciente2">Data de Nascimento</label><br>
+					<input type="date" value="" class="forms2" id="inputDataCadastroPaciente2" required><br><!--datetime-local-->
+					
+					<label class="text3" id="labelTelefoneCadastroPaciente2">Telefone</label><br>
+					<input type="text" value="" class="forms2" id="inputTelefoneCadastroPaciente2" required><br>
+					
+					<label class = "text3" id = "labelEmailCadastroPaciente2">Email</label><br>
+					<input type = "email" value="" class = "forms2" id="inputEmailCadastroPaciente2" required><br>
+					
+					<label class = "text3" id = "labelEnderecoCadastroPaciente2">Endereço</label><br>
+					<input type = "text" value="" class = "forms2" id="inputEnderecoCadastroPaciente2" required><br>
+									
+					<input type="button" value="Cadastrar" id = "inputCadastrarPaciente2" class = "text" onclick = "sendInfoPaciente();"> 
+					<p class = "text" style="text-align:center" id = "msgServer"></p>
+					
+				</form>		
+		</section>
+		
+		<a href = "index.html#"><img id = "setaVoltar" alt="setaVoltar" src="_img/setaVoltar.PNG"/></a>
+		
+	<script type = "text/javascript" src = "sendInfo.js" ></script>	
+	</body>
+</html>
